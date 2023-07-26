@@ -59,8 +59,6 @@ class Order : Menu() {
             }
         }
     }
-
-
     private fun getMenuList(item: String): Array<String>? {
         // 주문 항목 문자열을 받아와서 해당 메뉴에 대한 정보를 가져오기
         // menuArrays는 breadArray, snacksArray, cakeArray, rollsAndPoundArray 배열들을 포함
@@ -83,4 +81,3 @@ class Order : Menu() {
         return null
     }
 }
-//test push

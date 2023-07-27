@@ -8,6 +8,7 @@ class Bread() : Menu() {
             num++
         }
 
+        //예외처리//2
         var choice = readln()!!.toInt()
         orderList.add(breadArray[choice - 1][0].toString())
 
